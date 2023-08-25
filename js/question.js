@@ -98,7 +98,7 @@ export default class Question {
             }
         
             const nextQuestion = new Question(this.index);
-            nextQuestion.displayQuestion();
+            nextQuestion.display();
           }
 
           animateQuestion(element, duration) {
